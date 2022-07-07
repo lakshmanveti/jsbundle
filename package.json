@@ -1,0 +1,17 @@
+{
+  "name": "bundle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "headers": "uglifyjs  ./lib/headers/** -o ./output/header.js",
+    "bundle": "uglifyjs  ./lib/bundle/** -o ./output/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "uglifyjs": "^2.4.11",
+    "webpack-concat-plugin": "^3.0.0"
+  }
+}
