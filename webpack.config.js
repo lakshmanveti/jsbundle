@@ -13,7 +13,7 @@ module.exports = {
       {
         test: /\.tsx?$/,
         use: 'ts-loader',
-        // exclude: /node_modules/,
+        exclude: /node_modules/,
       },
     ],
   },
@@ -21,7 +21,7 @@ module.exports = {
     // alias: {
     //     handlebars: 'handlebars/dist/handlebars.js',
     // },
-    // modules: ['node_modules'],
+    modules: ['node_modules'],
     extensions: ['.ts', '.tsx', '.js']
   },
   optimization: {
