@@ -11,4 +11,3 @@
 //     attributes: {
 //         async: true
 //     }
-// });
